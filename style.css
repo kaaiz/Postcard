@@ -1,0 +1,18 @@
+body{
+	background-color: #171717; font-size: 20px;font-family: 'Handlee', cursive;}
+.Postcard{background: white; width: 500px; height: 350px; margin: auto;
+position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+padding: 15px;}
+.Postcard-header{overflow: hidden;}
+.Postcard-header img{max-width: 60px; float: right;}
+.Postcard-body{overflow: hidden;}
+input{font-size: 18px;font-family: 'Handlee', cursive;}
+.Postcard h1{margin:0;}
+.left-part{float: left; width: 50%;}
+.right-part{float: right; width: 50%;}
+.right-part input{display: block;}
+h1{font-size: 35px;}
+.Postcard-footer{padding: 10px; text-align: center;}
+.Postcard-footer input[type=submit]{border: none; border-bottom: 1px solid gray;}
+.Postcard-body input[type=text]{border: none; border-bottom: 1px solid gray;
+	width: 240px; margin-bottom: 10px; padding: 5px}
